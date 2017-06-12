@@ -1,0 +1,7 @@
+login: YOUR_APPANNIE_ID
+password: YOUR_APPANNIE_PASSWORD
+server: MAIL_SVR_IP
+port: MAIL_SVR_PORT
+to: '"Foo" <foo@example.com>'
+from: '"Bar" <bar@example.com>'
+app: com.example.mobile
