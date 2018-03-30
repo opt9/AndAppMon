@@ -90,7 +90,7 @@ if ($new eq $old) {
           From         => $config->{from},
           Subject      => "[Mobsec] New Android App $ver released",
         ],
-        body => "Android App $ver released.\nPlease download it from http://apk-dl.com/" . $config->{app} . "\n",
+        body => "Android App $ver released.\nPlease download it from http://www.apkmonk.com/" . $config->{app} . "\n",
     );
     my $ret = sendmail($email, { transport => $transport});
     print STDERR Dumper $ret if $DEBUG;
